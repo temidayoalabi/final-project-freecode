@@ -1,0 +1,128 @@
+#navbar{
+    position: fixed;
+    font-size: 22px;
+    top: 0; 
+    right: 0;
+    padding: 1em; 
+    width: 100%;
+    background-color: #F98866;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  
+  #navbar a {
+    text-decoration: none;
+    display: block;
+    padding: 0.4em;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+  }
+  
+  #navbar a:hover {
+    background: lightgray;
+  }
+  
+  body {
+    display: grid;
+  }
+  
+  #welcome-section{
+    background-color: #FF420E;
+    font-size: 25px;
+    padding: 5em;
+    text-align: center;
+    color: white;
+    width: 100%;
+  }
+  
+  .welcome{
+    color: black;
+    font-size: 20px;
+  }
+  
+  #about {
+    background-color: #80BD9E;
+    font-size: 25px;
+    padding: 3em;
+    text-align: center;
+    color: white;
+    width: 100%;
+  }
+  
+  .about-link {
+    color: black;
+    font-size: 20px;
+    text-align: left;
+  }
+  
+  #projects {
+    text-align: center;
+    background-color: #89DA59;
+    padding: 1.5em;
+    color: white;
+    font-size: 25px;
+    width: 100%
+  }
+  
+  #projects a {
+    color: white;
+  }
+  
+  .project-tile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    font-size: 20px;
+  }
+  
+  .tile {
+    padding: 0.3em;
+  }
+  
+  #profile-link {
+    text-align: center;
+    background-color: #89DA59;
+    padding: 0.3em;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    border-color: #F98866;
+    border-width: 1px;
+    border-style: solid;
+    width: 100%;
+  }
+  
+  #profile-link a {
+    text-decoration: none;
+    padding: 0.3em;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+  }
+  
+  #profile-link a:hover {
+    background: black;
+  }
+  
+  #foot {
+    text-align: center;
+    background-color: #000000;
+    padding: 0.3em;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+  }
+  
+  @media all and (max-width: 800px) {
+    #navbar {
+      justify-content: space-around;
+    }
+  
+  @media all and (max-width: 600px) {
+    #navbar {
+      flex-flow: column wrap;
+      padding: 0px;
+    }
