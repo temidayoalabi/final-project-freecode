@@ -34,7 +34,8 @@
     padding: 5em;
     text-align: center;
     color: white;
-    width: 100%;
+    overflow-y:auto;
+    overflow-x:hidden;
   }
   
   .welcome{
@@ -48,7 +49,8 @@
     padding: 3em;
     text-align: center;
     color: white;
-    width: 100%;
+    overflow-y:auto;
+    overflow-x:hidden;
   }
   
   .about-link {
@@ -63,7 +65,8 @@
     padding: 1.5em;
     color: white;
     font-size: 25px;
-    width: 100%
+    overflow-y:auto;
+    overflow-x:hidden;
   }
   
   #projects a {
@@ -91,7 +94,8 @@
     border-color: #F98866;
     border-width: 1px;
     border-style: solid;
-    width: 100%;
+    overflow-y:hidden;
+    overflow-x:hidden;
   }
   
   #profile-link a {
@@ -113,7 +117,8 @@
     color: white;
     font-weight: bold;
     font-size: 20px;
-    width: 100%;
+    overflow-y:auto;
+    overflow-x:hidden;
   }
   
   @media all and (max-width: 800px) {
